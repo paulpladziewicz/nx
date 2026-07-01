@@ -10,7 +10,7 @@
       "path": "./apps/paulpladziewicz"
     },
     {
-      "path": "./apps/paulpladziewicz/packages/ui"
+      "path": "./packages/ui"
     }
   ]
 }

@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import OrgUi from './ui';
+import Input from './Input';
 
-describe('OrgUi', () => {
+describe('Input', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<OrgUi />);
+    const { baseElement } = render(<Input />);
     expect(baseElement).toBeTruthy();
   });
 });
