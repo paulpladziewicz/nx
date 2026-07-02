@@ -1,14 +1,14 @@
 import { InputHTMLAttributes } from 'react';
 
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  label: string;
-  error?: string;
+  error?: string,
+  label?: string
 }
 
 export function Input({ label, error, ...props }: InputProps) {
   return (
     <div className="flex flex-col gap-1.5 w-full">
-      <label className="text-sm font-medium text-gray-700">
+      <label className="text-sm font-bold text-gray-700">
         {label}
       </label>
       <input
